@@ -7,4 +7,4 @@ const authorSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("Author", authorSchema); //authorSchema를 Author라는 이름의 모델로 export
+module.exports = mongoose.model("Author", authorSchema);
